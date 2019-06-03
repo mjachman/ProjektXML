@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE dinozaury SYSTEM "Dinozaury.dtd">
+<dinozaury>
 <dinozaur nazwa_lacinska='Diplodocus'>
         <nazwa_polska>Diplodok</nazwa_polska>
         <okres>jura</okres>
