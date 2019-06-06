@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!ELEMENT dinozaury (dinozaur+)>
-	<!ELEMENT dinozaur (nazwa_polska,okres,dlugosc,wysokosc?,masa)>
-	<!ELEMENT nazwa_polska (#PCDATA)>
-	<!ELEMENT okres (#PCDATA)>
-	<!ELEMENT dlugosc (#PCDATA)>
-	<!ELEMENT wysokosc (#PCDATA)>
-	<!ELEMENT masa (#PCDATA)>
-<!ATTLIST dinozaur nazwa_lacinska CDATA #REQUIRED>
+<!ELEMENT dinozaury ((okresy,rzad,rzad)|(okresy,rzad)>
+<!ELEMENT okresy (okres,okres,okres)>
+<!ELEMENT okres (#PCDATA)>
+<!ELEMENT rzad (dinozaur+)>
+<!ELEMENT dinozaur (nazwa_polska,okres,dlugosc,wysokosc?,masa)>
+<!ELEMENT nazwa_polska (#PCDATA)>
+<!ELEMENT okres (#PCDATA)>
+<!ELEMENT dlugosc (#PCDATA)>
+<!ELEMENT wysokosc (#PCDATA)>
+<!ELEMENT masa (#PCDATA)>
+<!ELEMENT wystepowanie EMPTY>
+	
+<!ATTLIST dinozaur nazwa_lacinska NMTOKEN #REQUIRED>
 <!ATTLIST dlugosc jednostka (m|cm) #REQUIRED>
 <!ATTLIST masa jednostka (kg|t) #REQUIRED>
 <!ATTLIST wysokosc jednostka CDATA #FIXED "m">
+<!ATTLIST rodzaj skrot ID #REQUIRED>
+<!ATTLIST wystepowanie okres IDREFS #REQUIRED>
 
 
