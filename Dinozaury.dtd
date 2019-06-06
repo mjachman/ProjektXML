@@ -1,21 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!ELEMENT dinozaury ((okresy,rzad,rzad)|(okresy,rzad)>
-<!ELEMENT okresy (okres,okres,okres)>
-<!ELEMENT okres (#PCDATA)>
+<!ENTITY % wersja_zlozona "INCLUDE">
+<!ENTITY % wersja_prosta "IGNORE">
+
+
+<!ENTITY % p "(#PCDATA)">
+<[%wersja_zlozona;[
+<!ELEMENT dinozaury ((rzad,rzad)|(rzad)>
 <!ELEMENT rzad (dinozaur+)>
+]]>
+<[%wersja_prosta;[
+<!ELEMENT dinozaury (dinozaur+)>
+]]>
 <!ELEMENT dinozaur (nazwa_polska,okres,dlugosc,wysokosc?,masa)>
-<!ELEMENT nazwa_polska (#PCDATA)>
-<!ELEMENT okres (#PCDATA)>
-<!ELEMENT dlugosc (#PCDATA)>
-<!ELEMENT wysokosc (#PCDATA)>
-<!ELEMENT masa (#PCDATA)>
-<!ELEMENT wystepowanie EMPTY>
-	
+<!ELEMENT nazwa_polska %p>
+<!ELEMENT okres %p>
+<!ELEMENT dlugosc %p>
+<!ELEMENT wysokosc %p>
+<!ELEMENT masa %p>
+<!ELEMENT okres %p>
+
 <!ATTLIST dinozaur nazwa_lacinska NMTOKEN #REQUIRED>
 <!ATTLIST dlugosc jednostka (m|cm) #REQUIRED>
 <!ATTLIST masa jednostka (kg|t) #REQUIRED>
 <!ATTLIST wysokosc jednostka CDATA #FIXED "m">
 <!ATTLIST rodzaj skrot ID #REQUIRED>
 <!ATTLIST wystepowanie okres IDREFS #REQUIRED>
+<!ENTITY j "jura" />
+<!ENTITY k "kreda" />
+<!ENTITY j "trias" />
+
+
 
 

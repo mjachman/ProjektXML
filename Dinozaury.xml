@@ -9,20 +9,20 @@
 <rzad  nazwa_polska='Dinozaury gadziomiednicze' nazwa_lacinska='Saurichia'>
 <dinozaur nazwa_lacinska='Diplodocus'>
         <nazwa_polska>Diplodok</nazwa_polska>
-        <wystepowanie okres="j"></wystepowanie/>
+        <kres=>%j<okres/>
         <dlugosc jednostka='m'>35</dlugosc>
 		<masa jednostka='t'>16</masa>
 </dinozaur>
 <dinozaur nazwa_lacinska='Brachiosaurus'>
         <nazwa_polska>Brachiozaur</nazwa_polska>
-        <wystepowanie okres="j"></wystepowanie/>
+        <kres=>%j<okres/>
         <dlugosc jednostka='m'>27</dlugosc>
 		<wysokosc jednostka='m'>13</wysokosc>
 		<masa jednostka='t'>80</masa>
 </dinozaur>
 <dinozaur nazwa_lacinska='Apatosaurus'>
         <nazwa_polska>Apatozaur</nazwa_polska>
-        <wystepowanie okres="j"></wystepowanie/>
+        <kres=>%j<okres/>
         <dlugosc jednostka='m'>20</dlugosc>
 		<masa jednostka='t'>23</masa>
 </dinozaur>
