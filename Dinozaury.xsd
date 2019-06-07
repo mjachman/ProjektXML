@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="dinozaury">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="rzad">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="dinozaur">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="nazwa_polska" type="xsd:string"/>
+                                        <xsd:element name="dlugosc" type="xsd:positiveInteger" />
+                                        <xsd:element name="wysokosc" type="xsd:positiveInteger" />
+                                        <xsd:element name="masa" type="xsd:positiveInteger" />               
+                                    </xsd:sequence>
+                                    <xsd:attribute name="nazwa_polska" type="xsd:string" />
+                                    <xsd:attribute name="nazwa_lacinska" type="xsd:string" />
+                                </xsd:complexType>   
+                            </xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

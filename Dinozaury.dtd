@@ -4,14 +4,16 @@
 
 <!ENTITY % p "(#PCDATA)">
 <!ENTITY % d "dinozaur">
+<!ENTITY % r "rzad">
 <![%wersja_zlozona;[
-<!ELEMENT dinozaury ((rzad,rzad)|(rzad))>
-<!ELEMENT rzad (%d;+)>
+<!ELEMENT dinozaury ((%r;,%r;)|(%r;))>
+<!ELEMENT %r; (%d;+)>
 ]]>
 <![%wersja_prosta;[
 <!ELEMENT dinozaury (%d;+)>
 ]]>
-<!ELEMENT %d; (nazwa_polska,okres,dlugosc,wysokosc?,masa)>
+<!ELEMENT %d; (nazwa_polska,okres,dlugosc,wysokosc?,masa,wystepowanie)>
+<!ELEMENT wystepowanie EMPTY>
 <!ELEMENT nazwa_polska %p;>
 <!ELEMENT okres ANY>
 <!ELEMENT dlugosc %p;>
@@ -25,7 +27,7 @@
 <!ATTLIST masa jednostka (kg|t) #REQUIRED>
 <!ATTLIST wysokosc jednostka CDATA #FIXED "m">
 <!ATTLIST rodzaj skrot ID #REQUIRED>
-<!ATTLIST wystepowanie okres IDREFS #REQUIRED>
+<!ATTLIST wystepowanie okres ENTITY #REQUIRED>
 
 <!ENTITY j "jura" >
 <!ENTITY k "kreda" >

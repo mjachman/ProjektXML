@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE dinozaury SYSTEM "Dinozaury.dtd">
 <dinozaury>
-<rzad nazwa_polska='Dinozaury gadziomiednicze' nazwa_lacinska='Saurichia'>
+<rzad  nazwa_polska='Dinozaury gadziomiednicze' nazwa_lacinska='Saurichia'>
 <dinozaur nazwa_lacinska='Diplodocus'>
         <nazwa_polska>Diplodok</nazwa_polska>
-        <okres>%j;</okres>
+        <okres>&j;</okres>
         <dlugosc jednostka='m'>35</dlugosc>
-	<masa jednostka='t'>16</masa>
+		<masa jednostka='t'>16</masa>
 </dinozaur>
 <dinozaur nazwa_lacinska='Brachiosaurus'>
         <nazwa_polska>Brachiozaur</nazwa_polska>
