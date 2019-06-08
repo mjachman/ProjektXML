@@ -2,7 +2,7 @@
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <xsd:element name="dinozaury" type="typ_dinozaury"/>
     <xsd:element name="rzad" type="typ_rzad"/>
-    <xsd:element name="dinozaur" type="typ_dinozaur"/>
+    <xsd:element name="dinozaur" type="typ_rodzaj"/>
     
     <xsd:complexType name="typ_dinozaury">
         <xsd:sequence>
@@ -18,15 +18,14 @@
     </xsd:complexType>
     <xsd:complexType name="typ_podrzad">
         <xsd:sequence>
-            <xsd:element name="dinozaur" type="typ_dinozaur" minOccurs="1" maxOccurs="unbounded"/>           
+            <xsd:element name="rodzaj" type="typ_rodzaj" minOccurs="1" maxOccurs="unbounded"/>           
         </xsd:sequence>
         <xsd:attribute name="nazwa_polska" type="xsd:string" use="required" />
         <xsd:attribute name="nazwa_lacinska" type="xsd:string" use="required" />
     </xsd:complexType>
     
-    <xsd:complexType name="typ_dinozaur">
+    <xsd:complexType name="typ_rodzaj">
         <xsd:sequence>
-            <xsd:element name="nazwa_polska" type="xsd:string" />
             <xsd:element name="okres" type="typ_okres" />
             <xsd:element name="dlugosc" type="typ_rozmiar" />
             <xsd:element name="wysokosc" type="typ_rozmiar" minOccurs="0" maxOccurs="1" />
