@@ -24,5 +24,14 @@
                                 <masa jednostka='t'>23</masa>
                         </dinozaur>
                 </podrzad>
+                <podrzad nazwa_polska='Teropody' nazwa_lacinska="Theropoda">
+                        <dinozaur nazwa_lacinska='Tyrannosaurus'>
+                                <nazwa_polska>Tyranozaur</nazwa_polska>
+                                <okres>kreda</okres>
+                                <dlugosc jednostka='m'>12</dlugosc>
+                                <masa jednostka='t'>15</masa>
+                        </dinozaur> 
+                </podrzad>
         </rzad>
+
 </dinozaury>
