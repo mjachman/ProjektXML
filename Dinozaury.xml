@@ -31,7 +31,62 @@
                                 <dlugosc jednostka='m'>12</dlugosc>
                                 <masa jednostka='t'>15</masa>
                         </dinozaur> 
+                        <dinozaur nazwa_lacinska='Allosaurus'>
+                                <nazwa_polska>Alozaur</nazwa_polska>
+                                <okres>jura</okres>
+                                <dlugosc jednostka='m'>9</dlugosc>
+                                <masa jednostka='t'>2</masa>
+                        </dinozaur>
+                        <dinozaur nazwa_lacinska='Velociraptor'>
+                                <nazwa_polska>Welociraptor</nazwa_polska>
+                                <okres>kreda</okres>
+                                <dlugosc jednostka='m'>2</dlugosc>
+                                <masa jednostka='kg'>11</masa>
+                        </dinozaur>
+                        <dinozaur nazwa_lacinska='Spinosaurus'>
+                                <nazwa_polska>Spinozaur</nazwa_polska>
+                                <okres>kreda</okres>
+                                <dlugosc jednostka='m'>2</dlugosc>
+                                <masa jednostka='kg'>11</masa>
+                        </dinozaur>
                 </podrzad>
         </rzad>
-
+        <rzad  nazwa_polska='Dinozaury ptasiomiednicze' nazwa_lacinska='Ornithischia'>
+               <podrzad nazwa_polska="Cerapody" nazwa_lacinska="Cerapoda">
+                       <dinozaur nazwa_lacinska="Triceratops">
+                               <nazwa_polska>Triceratops</nazwa_polska>
+                               <okres>kreda</okres>
+                               <dlugosc jednostka="m">16</dlugosc>
+                               <masa jednostka="t">9</masa>
+                       </dinozaur>
+                       <dinozaur nazwa_lacinska="Iguanodon">
+                               <nazwa_polska>Iguanodon</nazwa_polska>
+                               <okres>kreda</okres>
+                               <dlugosc jednostka="m">10</dlugosc>
+                               <masa jednostka="t">3</masa>
+                       </dinozaur>
+                       <dinozaur nazwa_lacinska="Iguanodon">
+                               <nazwa_polska>Iguanodon</nazwa_polska>
+                               <okres>kreda</okres>
+                               <dlugosc jednostka="m">10</dlugosc>
+                               <masa jednostka="t">3</masa>
+                       </dinozaur>
+               </podrzad>
+                <podrzad nazwa_polska="Tyreofory" nazwa_lacinska="Thyreophora">
+                        <dinozaur nazwa_lacinska="Ankylosaurus">
+                                <nazwa_polska>Ankylozaur</nazwa_polska>
+                                <okres>kreda</okres>
+                                <dlugosc jednostka="m">9</dlugosc>
+                                <masa jednostka="t">6</masa>
+                        </dinozaur>
+                        <dinozaur nazwa_lacinska="Stegozaur">
+                                <nazwa_polska>Stegosaurus</nazwa_polska>
+                                <okres>jura</okres>
+                                <dlugosc jednostka="m">9</dlugosc>
+                                <wysokosc jednostka="m">4</wysokosc>
+                                <masa jednostka="t">2</masa>
+                        </dinozaur>
+                </podrzad>
+        </rzad>
+        
 </dinozaury>
