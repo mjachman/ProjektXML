@@ -4,7 +4,7 @@
 <dinozaury xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Dinozaury.xsd">
         <rzad nazwa_polska='Dinozaury gadziomiednicze' nazwa_lacinska='Saurichia'>
                 <podrzad nazwa_polska='Zauropodomorfy' nazwa_lacinska='Sauropodomorphia'>
-                        <rodzaj nazwa_lacinska='Diplodocus' nazwa_polska="Diplodok">
+                        <rodzaj nazwa_lacinska='Diplodocus' nazwa_polska="Diplodok">                               
                                 <okres>jura</okres>
                                 <dlugosc jednostka='m'>35</dlugosc>
                                 <masa jednostka='t'>16</masa>
@@ -70,6 +70,5 @@
                                 <masa jednostka="t">2</masa>
                         </rodzaj>
                 </podrzad>
-        </rzad>
-        
+        </rzad>  
 </dinozaury>
