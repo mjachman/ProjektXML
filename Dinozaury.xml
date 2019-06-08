@@ -46,8 +46,8 @@
                         <dinozaur nazwa_lacinska='Spinosaurus'>
                                 <nazwa_polska>Spinozaur</nazwa_polska>
                                 <okres>kreda</okres>
-                                <dlugosc jednostka='m'>2</dlugosc>
-                                <masa jednostka='kg'>11</masa>
+                                <dlugosc jednostka='m'>15</dlugosc>
+                                <masa jednostka='t'>9</masa>
                         </dinozaur>
                 </podrzad>
         </rzad>
