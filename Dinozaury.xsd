@@ -33,6 +33,7 @@
             <xsd:element name="masa" type="typ_rozmiar" />
         </xsd:sequence>
         <xsd:attribute name="nazwa_lacinska" type="xsd:string" use="required" />
+        <xsd:attribute name="nazwa_polska" type="xsd:string" use="optional" />
     </xsd:complexType>
     
     <xsd:simpleType name="typ_okres">
