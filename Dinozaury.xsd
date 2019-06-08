@@ -58,12 +58,21 @@
     <xsd:complexType name="typ_rozmiar">
         <xsd:simpleContent>
             <xsd:extension base="zakres">
-                <xsd:attribute name="jednostka" type="xsd:string" use="required" />
+                <xsd:attribute name="jednostka" type="typ_jednostka" use="required" />
             </xsd:extension>
         </xsd:simpleContent>        
     </xsd:complexType>
     
     <xsd:simpleType name="zakres">
-        <xsd:list itemType="xsd:unsignedShort"/>
+        <xsd:list itemType="xsd:unsignedShort">
+
+        </xsd:list>
     </xsd:simpleType>
+
+<xsd:simpleType name="typ_jednostka">
+    <xsd:restriction base="xsd:string">
+        <xsd:maxLength value="2"/>
+    </xsd:restriction>
+</xsd:simpleType>
+    
 </xsd:schema>
