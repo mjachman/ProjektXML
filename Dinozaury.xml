@@ -1,73 +1,73 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="styl.css"?>
-<!--DOCTYPE dinozaury SYSTEM "Dinozaury.dtd"-->
-<dinozaury xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Dinozaury.xsd">
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-stylesheet href='styl.css'?>
+<!--DOCTYPE dinozaury SYSTEM 'Dinozaury.dtd'-->
+<dinozaury xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='Dinozaury.xsd'>
         <rzad nazwa_polska='Dinozaury gadziomiednicze' nazwa_lacinska='Saurichia'>
                 <podrzad nazwa_polska='Zauropodomorfy' nazwa_lacinska='Sauropodomorphia'>
-                        <rodzaj nazwa_lacinska='Diplodocus' nazwa_polska="Diplodok">                               
-                                <okres>jura</okres>
+                        <rodzaj nazwa_lacinska='Diplodocus' nazwa_polska='Diplodok'>                               
+                                <okres nazwa="jura" jednostka="mln lat temu">155 145</okres>
                                 <dlugosc jednostka='m'>35</dlugosc>
                                 <masa jednostka='t'>16</masa>
                         </rodzaj>
-                        <rodzaj nazwa_lacinska='Brachiosaurus' nazwa_polska="Brachiozaur">
-                                <okres>jura</okres>
+                        <rodzaj nazwa_lacinska='Brachiosaurus' nazwa_polska='Brachiozaur'>
+                                <okres nazwa="jura" jednostka="mln lat temu">155 140</okres>
                                 <dlugosc jednostka='m'>27</dlugosc>
                                 <wysokosc jednostka='m'>13</wysokosc>
                                 <masa jednostka='t'>80</masa>
                         </rodzaj>
-                        <rodzaj nazwa_lacinska='Apatosaurus' nazwa_polska="Apatozaur">
-                                <okres>jura</okres>
+                        <rodzaj nazwa_lacinska='Apatosaurus' nazwa_polska='Apatozaur'>
+                                <okres nazwa="jura" jednostka="mln lat temu">155 145</okres>
                                 <dlugosc jednostka='m'>20</dlugosc>
                                 <masa jednostka='t'>23</masa>
                         </rodzaj>
                 </podrzad>
-                <podrzad nazwa_polska='Teropody' nazwa_lacinska="Theropoda">
-                        <rodzaj nazwa_lacinska='Tyrannosaurus' nazwa_polska="Tyranozaur">
-                                <okres>kreda</okres>
+                <podrzad nazwa_polska='Teropody' nazwa_lacinska='Theropoda'>
+                        <rodzaj nazwa_lacinska='Tyrannosaurus' nazwa_polska='Tyranozaur'>
+                                <okres nazwa="kreda" jednostka="mln lat temu">68 66</okres>
                                 <dlugosc jednostka='m'>12</dlugosc>
                                 <masa jednostka='t'>15</masa>
                         </rodzaj> 
-                        <rodzaj nazwa_lacinska='Allosaurus' nazwa_polska="Alozaur">
-                                <okres>jura</okres>
+                        <rodzaj nazwa_lacinska='Allosaurus' nazwa_polska='Alozaur'>
+                                <okres nazwa="jura">156 144</okres>
                                 <dlugosc jednostka='m'>9</dlugosc>
                                 <masa jednostka='t'>2</masa>
                         </rodzaj>
-                        <rodzaj nazwa_lacinska='Velociraptor' nazwa_polska="Welociraptor">
-                                <okres>kreda</okres>
-                                <dlugosc jednostka='m'>2</dlugosc>
-                                <masa jednostka='kg'>11</masa>
+                        <rodzaj nazwa_lacinska='Velociraptor' nazwa_polska='Welociraptor'>
+                                <okres nazwa="kreda">74 40</okres>
+                                <dlugosc jednostka='cm'>2</dlugosc>
+                                <masa jednostka='kg'>7 11</masa>
                         </rodzaj>
-                        <rodzaj nazwa_lacinska='Spinosaurus' nazwa_polska="Spinozaur">
-                                <okres>kreda</okres>
-                                <dlugosc jednostka='m'>15</dlugosc>
-                                <masa jednostka='t'>9</masa>
+                        <rodzaj nazwa_lacinska='Spinosaurus' nazwa_polska='Spinozaur'>
+                                <okres nazwa="kreda">95 70</okres>
+                                <dlugosc jednostka='m'>15 18</dlugosc>
+                                <masa jednostka='t'>4 9</masa>
                         </rodzaj>
                 </podrzad>
         </rzad>
         <rzad  nazwa_polska='Dinozaury ptasiomiednicze' nazwa_lacinska='Ornithischia'>
-               <podrzad nazwa_polska="Cerapody" nazwa_lacinska="Cerapoda">
-                       <rodzaj nazwa_lacinska="Triceratops">
-                               <okres>kreda</okres>
-                               <dlugosc jednostka="m">16</dlugosc>
-                               <masa jednostka="t">9</masa>
+               <podrzad nazwa_polska='Cerapody' nazwa_lacinska='Cerapoda'>
+                       <rodzaj nazwa_lacinska='Triceratops'>
+                               <okres nazwa="kreda">68 66</okres>
+                               <dlugosc jednostka='m'>9</dlugosc>
+                               <masa jednostka='t'>6</masa>
                        </rodzaj>
-                       <rodzaj nazwa_lacinska="Iguanodon">
-                               <okres>kreda</okres>
-                               <dlugosc jednostka="m">10 12</dlugosc>
-                               <masa jednostka="t">3</masa>
+                       <rodzaj nazwa_lacinska='Iguanodon'>
+                               <okres nazwa="kreda">144 110</okres>
+                               <dlugosc jednostka='m'>10 13</dlugosc>
+                               <masa jednostka='t'>3 4</masa>
                        </rodzaj>
                </podrzad>
-                <podrzad nazwa_polska="Tyreofory" nazwa_lacinska="Thyreophora">
-                        <rodzaj nazwa_lacinska="Ankylosaurus" nazwa_polska="Ankylozaur">
-                                <okres>kreda</okres>
-                                <dlugosc jednostka="m">9</dlugosc>
-                                <masa jednostka="t">6</masa>
+                <podrzad nazwa_polska='Tyreofory' nazwa_lacinska='Thyreophora'>
+                        <rodzaj nazwa_lacinska='Ankylosaurus' nazwa_polska='Ankylozaur'>
+                                <okres nazwa="kreda">144 110</okres>
+                                <dlugosc jednostka='m'>9</dlugosc>
+                                <masa jednostka='t'>6</masa>
                         </rodzaj>
-                        <rodzaj nazwa_lacinska="Stegosaurus" nazwa_polska="Stegozaur">
-                                <okres>jura</okres>
-                                <dlugosc jednostka="m">9</dlugosc>
-                                <wysokosc jednostka="m">4</wysokosc>
-                                <masa jednostka="t">2</masa>
+                        <rodzaj nazwa_lacinska='Stegosaurus' nazwa_polska='Stegozaur'>
+                                <okres nazwa="jura">155 145</okres>
+                                <dlugosc jednostka='m'>9</dlugosc>
+                                <wysokosc jednostka='m'>4</wysokosc>
+                                <masa jednostka='t'>2</masa>
                         </rodzaj>
                 </podrzad>
         </rzad>  

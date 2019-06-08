@@ -47,13 +47,22 @@
         <xsd:attribute name="nazwa_polska" type="xsd:string" use="optional" />
     </xsd:complexType>
     
-    <xsd:simpleType name="typ_okres">
+    <xsd:simpleType name="typ_okres_nazwa">
         <xsd:restriction base="xsd:string">
             <xsd:enumeration value="trias"/>
             <xsd:enumeration value="jura"/>
             <xsd:enumeration value="kreda"/>
         </xsd:restriction>
     </xsd:simpleType>
+    
+    <xsd:complexType name="typ_okres">
+        <xsd:simpleContent>
+            <xsd:extension base="zakres">
+                <xsd:attribute name="nazwa" type="typ_okres_nazwa" use="required"/>
+                <xsd:attribute name="jednostka" fixed="mln lat temu" />
+            </xsd:extension>
+        </xsd:simpleContent>        
+    </xsd:complexType>
     
     <xsd:complexType name="typ_rozmiar">
         <xsd:simpleContent>
@@ -65,7 +74,6 @@
     
     <xsd:simpleType name="zakres">
         <xsd:list itemType="xsd:unsignedShort">
-
         </xsd:list>
     </xsd:simpleType>
 
