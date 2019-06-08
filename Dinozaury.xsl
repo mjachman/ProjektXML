@@ -10,7 +10,23 @@
                     <xsl:for-each select="dinozaury/rzad">
                         <li>
                             <xsl:value-of select="@nazwa_polska"/> 
-                        </li>
+                            <ul>
+                                <xsl:for-each select="podrzad">
+                                    <li><xsl:value-of select="@nazwa_polska"/> 
+                                        <ul>
+                                            <xsl:for-each select="rodzaj">
+                                            <li>
+                                                <xsl:if test="not(@nazwa_polska)" >                                                 
+                                                <xsl:value-of select="@nazwa_lacinska"/>
+                                               </xsl:if>                                                
+                                                <xsl:value-of select="@nazwa_polska"/>
+                                            </li>
+                                                </xsl:for-each>
+                                        </ul>
+                                    </li>
+                               </xsl:for-each> 
+                            </ul>
+                        </li>                       
                     </xsl:for-each>
                 </ul>				
             </body>
