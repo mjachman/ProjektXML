@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="styl.css"?>
 <!DOCTYPE dinozaury SYSTEM "Dinozaury.dtd">
-<dinozaury>
+<dinozaury xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Dinozaury.xsd">
 <rzad  nazwa_polska='Dinozaury gadziomiednicze' nazwa_lacinska='Saurichia'>
 <dinozaur nazwa_lacinska='Diplodocus'>
         <nazwa_polska>Diplodok</nazwa_polska>
@@ -13,8 +13,8 @@
         <nazwa_polska>Brachiozaur</nazwa_polska>
         <okres>jura</okres>
         <dlugosc jednostka='m'>27</dlugosc>
-		<wysokosc jednostka='m'>13</wysokosc>
-		<masa jednostka='t'>80</masa>
+	<wysokosc jednostka='m'>13</wysokosc>
+	<masa jednostka='t'>80</masa>
 </dinozaur>
 <dinozaur nazwa_lacinska='Apatosaurus'>
         <nazwa_polska>Apatozaur</nazwa_polska>
