@@ -1,0 +1,81 @@
+dinozaury{
+background-color:green;
+}
+rzad{
+background-color:yellow;    
+}
+rzad{
+display:inline-block;
+background-color:grey;
+margin-top:10px;
+padding-top:10px;
+padding-right:10px;
+padding-left:10px;
+border-style:solid;
+border-width:3px;
+border-color:black;
+/*outline-style:groove;*/
+}
+dinozaur{
+padding-top:5px;
+padding-left:5px;
+padding-right:10px;
+padding-bottom:5px;
+display:block;
+border-style:solid;
+border-width:3px;
+border-color:black;
+outline-offset:5px;
+background-color:yellow; 
+}
+dinozaur+dinozaur{
+margin-bottom:10px;
+margin-top:10px;
+}
+nazwa_polska{
+padding-top:5px;
+padding-left:5px;
+padding-right:10px;
+padding-bottom:5px;
+display:block;
+border-style:solid;
+border-width:3px;
+border-color:black;
+outline-offset:5px;
+background-color:red; 
+}
+
+
+dlugosc{
+display:block;
+}
+dlugosc::before{
+content: "długość: ";
+}
+dlugosc::after{
+content: " " attr(jednostka);
+}
+wysokosc::before{
+content: "wysokość: ";
+}
+wysokosc::after{
+content: " " attr(jednostka);
+}
+wysokosc{
+display:block;
+}
+masa{
+display:block;
+}
+masa::before{
+content: "masa: ";
+}
+masa::after{
+content:" " attr(jednostka);   
+}
+okres{
+display:block;
+}
+okres::before{
+content:"okres: ";
+}
