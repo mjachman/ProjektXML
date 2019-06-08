@@ -9,8 +9,14 @@
             <xsd:element name="rzad" type="typ_rzad" minOccurs="1" maxOccurs="2"/>
         </xsd:sequence>
     </xsd:complexType>
-    
     <xsd:complexType name="typ_rzad">
+        <xsd:sequence>
+            <xsd:element name="podrzad" type="typ_podrzad" minOccurs="1"/>
+        </xsd:sequence>
+        <xsd:attribute name="nazwa_polska" type="xsd:string" use="required" />
+        <xsd:attribute name="nazwa_lacinska" type="xsd:string" use="required" />
+    </xsd:complexType>
+    <xsd:complexType name="typ_podrzad">
         <xsd:sequence>
             <xsd:element name="dinozaur" type="typ_dinozaur" minOccurs="1" maxOccurs="unbounded"/>           
         </xsd:sequence>

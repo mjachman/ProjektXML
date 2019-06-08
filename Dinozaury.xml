@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="styl.css"?>
-<!DOCTYPE dinozaury SYSTEM "Dinozaury.dtd">
+<!--DOCTYPE dinozaury SYSTEM "Dinozaury.dtd"-->
 <dinozaury xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Dinozaury.xsd">
-<rzad  nazwa_polska='Dinozaury gadziomiednicze' nazwa_lacinska='Saurichia'>
-<dinozaur nazwa_lacinska='Diplodocus'>
-        <nazwa_polska>Diplodok</nazwa_polska>
-        <okres>jura</okres>
-        <dlugosc jednostka='m'>35</dlugosc>
-	<masa jednostka='t'>16</masa>
-</dinozaur>
-<dinozaur nazwa_lacinska='Brachiosaurus'>
-        <nazwa_polska>Brachiozaur</nazwa_polska>
-        <okres>jura</okres>
-        <dlugosc jednostka='m'>27</dlugosc>
-	<wysokosc jednostka='m'>13</wysokosc>
-	<masa jednostka='t'>80</masa>
-</dinozaur>
-<dinozaur nazwa_lacinska='Apatosaurus'>
-        <nazwa_polska>Apatozaur</nazwa_polska>
-        <okres>jura</okres>
-        <dlugosc jednostka='m'>20</dlugosc>
-		<masa jednostka='t'>23</masa>
-</dinozaur>
-</rzad>
+        <rzad  nazwa_polska='Dinozaury gadziomiednicze' nazwa_lacinska='Saurichia'>
+                <podrzad nazwa_polska='Zauropodomorfy' nazwa_lacinska='Sauropodomorphia'>
+                        <dinozaur nazwa_lacinska='Diplodocus'>
+                                <nazwa_polska>Diplodok</nazwa_polska>
+                                <okres>jura</okres>
+                                <dlugosc jednostka='m'>35</dlugosc>
+                                <masa jednostka='t'>16</masa>
+                        </dinozaur>
+                        <dinozaur nazwa_lacinska='Brachiosaurus'>
+                                <nazwa_polska>Brachiozaur</nazwa_polska>
+                                <okres>jura</okres>
+                                <dlugosc jednostka='m'>27</dlugosc>
+                                <wysokosc jednostka='m'>13</wysokosc>
+                                <masa jednostka='t'>80</masa>
+                        </dinozaur>
+                        <dinozaur nazwa_lacinska='Apatosaurus'>
+                                <nazwa_polska>Apatozaur</nazwa_polska>
+                                <okres>jura</okres>
+                                <dlugosc jednostka='m'>20</dlugosc>
+                                <masa jednostka='t'>23</masa>
+                        </dinozaur>
+                </podrzad>
+        </rzad>
 </dinozaury>
