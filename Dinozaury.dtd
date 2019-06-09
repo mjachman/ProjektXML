@@ -3,34 +3,42 @@
 <!ENTITY % wersja_prosta "IGNORE">
 
 <!ENTITY % p "(#PCDATA)">
-<!ENTITY % d "dinozaur">
-<!ENTITY % r "rzad">
+<!ENTITY % rz "rzad">
+<!ENTITY % pd "podrzad">
+<!ENTITY % ro "rodzaj">
+<!ENTITY % np "nazwa_polska">
+<!ENTITY % nl "nazwa_lacinska">
 <![%wersja_zlozona;[
-<!ELEMENT dinozaury ((%r;,%r;)|(%r;))>
-<!ELEMENT %r; (%d;+)>
+<!ELEMENT dinozaury ((%rz;,%rz;)|(%rz;))>
+<!ELEMENT %rz; (%pd;+)>
+<!ELEMENT %pd; (%ro;+)>
 ]]>
 <![%wersja_prosta;[
-<!ELEMENT dinozaury (%d;+)>
+<!ELEMENT dinozaury (%ro;+)>
 ]]>
-<!ELEMENT %d; (nazwa_polska,okres,dlugosc,wysokosc?,masa)>
-<!ELEMENT wystepowanie EMPTY>
-<!ELEMENT nazwa_polska %p;>
+<!ELEMENT %ro; (okres,dlugosc,wysokosc?,masa)>
 <!ELEMENT okres ANY>
 <!ELEMENT dlugosc %p;>
 <!ELEMENT wysokosc %p;>
 <!ELEMENT masa %p;>
 
-<!ATTLIST rzad nazwa_polska NMTOKENS #REQUIRED>
-<!ATTLIST rzad nazwa_lacinska NMTOKEN #REQUIRED>
-<!ATTLIST dinozaur nazwa_lacinska NMTOKEN #REQUIRED>
-<!ATTLIST dlugosc jednostka (m|cm) #REQUIRED>
-<!ATTLIST masa jednostka (kg|t) #REQUIRED>
-<!ATTLIST wysokosc jednostka CDATA #FIXED "m">
-<!ATTLIST rodzaj skrot ID #REQUIRED>
+<!ATTLIST %rz; %np; NMTOKENS #IMPLIED>
+<!ATTLIST %rz; %nl; ID #REQUIRED>
 
-<!ENTITY j "jura" >
-<!ENTITY k "kreda" >
-<!ENTITY j "trias" >
+<!ATTLIST %pd; %np; NMTOKENS #IMPLIED>
+<!ATTLIST %pd; %nl; ID #REQUIRED>
+
+<!ATTLIST %ro; %np; NMTOKENS #IMPLIED>
+<!ATTLIST %ro; %nl; ID #REQUIRED>
+
+
+<!ATTLIST dlugosc jednostka (m|cm) #REQUIRED>
+<!ATTLIST okres jednostka CDATA #FIXED 'mln lat temu'>
+<!ATTLIST okres nazwa (jura|trias|kreda) #REQUIRED>
+<!ATTLIST masa jednostka (kg|t) #REQUIRED>
+<!ATTLIST wysokosc jednostka CDATA 'm'>
+
+
 
 
 
