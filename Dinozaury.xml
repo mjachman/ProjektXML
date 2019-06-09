@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!--?xml-stylesheet href='styl.css'?-->
-<?xml-stylesheet type="text/xsl" href="Dinozaury.xsl"?>
+<?xml-stylesheet href='styl.css'?>
+<!--?xml-stylesheet type="text/xsl" href="Dinozaury.xsl"?-->
 <!DOCTYPE dinozaury SYSTEM 'Dinozaury.dtd'>
-<dinozaury xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='Dinozaury.xsd'>
-<!--dinozaury-->
+<!--dinozaury xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='Dinozaury.xsd'-->
+<dinozaury>
         <rzad nazwa_polska='Dinozaury gadziomiednicze' nazwa_lacinska='Saurichia'>
                 <podrzad nazwa_polska='Zauropodomorfy' nazwa_lacinska='Sauropodomorphia' pozywienie='r'>
                         <rodzaj nazwa_lacinska='Diplodocus' nazwa_polska='Diplodok'>
