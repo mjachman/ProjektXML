@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!--?xml-stylesheet href='styl.css'?-->
+<?xml-stylesheet href='styl.css'?>
 <!--?xml-stylesheet type="text/xsl" href="Dinozaury.xsl"?-->
-<!DOCTYPE dinozaury SYSTEM 'Dinozaury.dtd'>
+<!--!DOCTYPE dinozaury SYSTEM 'Dinozaury.dtd'-->
 <dinozaury xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='Dinozaury.xsd'>
 <!--dinozaury-->
         <rzad nazwa_polska='Dinozaury gadziomiednicze' nazwa_lacinska='Saurichia'>
-                <podrzad nazwa_polska='Zauropodomorfy' nazwa_lacinska='Sauropodomorphia'>
+                <podrzad nazwa_polska='Zauropodomorfy' nazwa_lacinska='Sauropodomorphia' pozywienie='r'>
                         <rodzaj nazwa_lacinska='Diplodocus' nazwa_polska='Diplodok'>
                                 <znaczenie_nazwy>podwójna belka</znaczenie_nazwy>
                                 <okres nazwa="jura" jednostka="mln lat temu">155 145</okres>
@@ -32,7 +32,7 @@
                                 <masa jednostka='t'>4</masa>
                         </rodzaj>
                 </podrzad>
-                <podrzad nazwa_polska='Teropody' nazwa_lacinska='Theropoda'>
+                <podrzad nazwa_polska='Teropody' nazwa_lacinska='Theropoda' pozywienie='m'>
                         <rodzaj nazwa_lacinska='Tyrannosaurus' nazwa_polska='Tyranozaur'>
                                 <znaczenie_nazwy>jaszczur tyran</znaczenie_nazwy>
                                 <okres nazwa="kreda" jednostka="mln lat temu">68 66</okres>
@@ -65,16 +65,16 @@
                         </rodzaj>
                 </podrzad>
         </rzad>
-        <rzad  nazwa_polska='Dinozaury ptasiomiednicze' nazwa_lacinska='Ornithischia'>
-               <podrzad nazwa_polska='Cerapody' nazwa_lacinska='Cerapoda'>
-                       <rodzaj nazwa_lacinska='Triceratops'>
+        <rzad  nazwa_polska='Dinozaury ptasiomiednicze' nazwa_lacinska='Ornithischia' >
+                <podrzad nazwa_polska='Cerapody' nazwa_lacinska='Cerapoda' pozywienie='r'>
+                       <rodzaj nazwa_lacinska='Triceratops' nazwa_polska="Triceratops">
                                <znaczenie_nazwy>trójroga twarz</znaczenie_nazwy>
                                <okres nazwa="kreda" jednostka="mln lat temu">68 66</okres>
                                <dlugosc jednostka='m'>9</dlugosc>
                                <wysokosc jednostka='m'>3</wysokosc>
-                               <masa jednostka='t'>6.</masa>
+                               <masa jednostka='t'>6</masa>
                        </rodzaj>
-                       <rodzaj nazwa_lacinska='Iguanodon'>
+                       <rodzaj nazwa_lacinska='Iguanodon' nazwa_polska="Iguanodon">
                                <znaczenie_nazwy>ząb iguany</znaczenie_nazwy>
                                <okres nazwa="kreda" jednostka="mln lat temu">139 138</okres>
                                <dlugosc jednostka='m'>10 13</dlugosc>
@@ -100,7 +100,7 @@
                        </rodzaj>
                        
                </podrzad>
-                <podrzad nazwa_polska='Tyreofory' nazwa_lacinska='Thyreophora'>
+                <podrzad nazwa_polska='Tyreofory' nazwa_lacinska='Thyreophora'  pozywienie='r'>
                         <rodzaj nazwa_lacinska='Ankylosaurus' nazwa_polska='Ankylozaur'>
                                 <znaczenie_nazwy>wygięty jaszczur</znaczenie_nazwy>
                                 <okres nazwa="kreda" jednostka="mln lat temu">144 110</okres>

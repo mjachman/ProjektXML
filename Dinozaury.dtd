@@ -28,7 +28,7 @@
 
 <!ATTLIST %pd; %np; NMTOKENS #IMPLIED>
 <!ATTLIST %pd; %nl; ID #REQUIRED>
-
+<!ATTLIST %pd; pozywienie NMTOKEN #REQUIRED>
 <!ATTLIST %ro; %np; NMTOKENS #IMPLIED>
 <!ATTLIST %ro; %nl; ID #REQUIRED>
 

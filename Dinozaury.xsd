@@ -2,8 +2,7 @@
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <xsd:element name="dinozaury" type="typ_dinozaury"/>
     <xsd:element name="rzad" type="typ_rzad"/>
-    <xsd:element name="dinozaur" type="typ_rodzaj"/>
-    
+    <xsd:element name="rodzaj" type="typ_rodzaj"/>
     <xsd:attributeGroup name="nazewnictwo">
         <xsd:attribute name="nazwa_polska" type="typ_nazwa" />
         <xsd:attribute name="nazwa_lacinska" type="typ_nazwa" />
@@ -27,6 +26,7 @@
             <xsd:element name="podrzad" type="typ_podrzad" minOccurs="1" maxOccurs="unbounded"/>           
         </xsd:sequence>
         <xsd:attributeGroup ref="nazewnictwo" />
+       
     </xsd:complexType>
     
     <xsd:complexType name="typ_podrzad">
@@ -34,6 +34,7 @@
             <xsd:element name="rodzaj" type="typ_rodzaj" minOccurs="1" maxOccurs="unbounded"/>           
         </xsd:sequence>
         <xsd:attributeGroup ref="nazewnictwo" />
+        <xsd:attribute name="pozywienie" type="xsd:string" />
     </xsd:complexType>
     
     <xsd:complexType name="typ_rodzaj">
@@ -74,7 +75,7 @@
     </xsd:complexType>
     
     <xsd:simpleType name="zakres">
-        <xsd:list itemType="xsd:ﬂoat">
+        <xsd:list itemType="xsd:decimal">
         </xsd:list>
     </xsd:simpleType>
 
@@ -83,5 +84,4 @@
         <xsd:maxLength value="2"/>
     </xsd:restriction>
 </xsd:simpleType>
-    
 </xsd:schema>

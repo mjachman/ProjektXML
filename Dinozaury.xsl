@@ -20,9 +20,7 @@
                                         <ul>
                                             <xsl:for-each select="rodzaj">
                                             <li>
-                                                <xsl:if test="not(@nazwa_polska)" >                                                 
-                                                <xsl:value-of select="@nazwa_lacinska"/>
-                                               </xsl:if>                                                
+                                                                                             
                                                 <xsl:value-of select="@nazwa_polska"/>
                                             </li>
                                                 </xsl:for-each>
