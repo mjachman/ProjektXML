@@ -38,6 +38,7 @@
     
     <xsd:complexType name="typ_rodzaj">
         <xsd:sequence>
+            <xsd:element name="znaczenie_nazwy" type="xsd:string" />
             <xsd:element name="okres" type="typ_okres" />
             <xsd:element name="dlugosc" type="typ_rozmiar" />
             <xsd:element name="wysokosc" type="typ_rozmiar" minOccurs="0" maxOccurs="1" />
@@ -73,7 +74,7 @@
     </xsd:complexType>
     
     <xsd:simpleType name="zakres">
-        <xsd:list itemType="xsd:unsignedShort">
+        <xsd:list itemType="xsd:ﬂoat">
         </xsd:list>
     </xsd:simpleType>
 

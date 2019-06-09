@@ -16,8 +16,9 @@
 <![%wersja_prosta;[
 <!ELEMENT dinozaury (%ro;+)>
 ]]>
-<!ELEMENT %ro; (okres,dlugosc,wysokosc?,masa)>
-<!ELEMENT okres ANY>
+<!ELEMENT %ro; (znaczenie_nazwy,okres,dlugosc,wysokosc?,masa)>
+<!ELEMENT znaczenie_nazwy %p;>
+<!ELEMENT okres %p;>
 <!ELEMENT dlugosc %p;>
 <!ELEMENT wysokosc %p;>
 <!ELEMENT masa %p;>

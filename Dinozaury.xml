@@ -2,45 +2,64 @@
 <!--?xml-stylesheet href='styl.css'?-->
 <!--?xml-stylesheet type="text/xsl" href="Dinozaury.xsl"?-->
 <!DOCTYPE dinozaury SYSTEM 'Dinozaury.dtd'>
-<!--dinozaury xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='Dinozaury.xsd'-->
-<dinozaury>
+<dinozaury xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='Dinozaury.xsd'>
+<!--dinozaury-->
         <rzad nazwa_polska='Dinozaury gadziomiednicze' nazwa_lacinska='Saurichia'>
                 <podrzad nazwa_polska='Zauropodomorfy' nazwa_lacinska='Sauropodomorphia'>
-                        <rodzaj nazwa_lacinska='Diplodocus' nazwa_polska='Diplodok'>                               
+                        <rodzaj nazwa_lacinska='Diplodocus' nazwa_polska='Diplodok'>
+                                <znaczenie_nazwy>podwójna belka</znaczenie_nazwy>
                                 <okres nazwa="jura" jednostka="mln lat temu">155 145</okres>
                                 <dlugosc jednostka='m'>35</dlugosc>
                                 <masa jednostka='t'>16</masa>
                         </rodzaj>
                         <rodzaj nazwa_lacinska='Brachiosaurus' nazwa_polska='Brachiozaur'>
+                                <znaczenie_nazwy>ramienny jaszczur</znaczenie_nazwy>
                                 <okres nazwa="jura" jednostka="mln lat temu">155 140</okres>
                                 <dlugosc jednostka='m'>27</dlugosc>
                                 <wysokosc jednostka='m'>13</wysokosc>
                                 <masa jednostka='t'>80</masa>
                         </rodzaj>
                         <rodzaj nazwa_lacinska='Apatosaurus' nazwa_polska='Apatozaur'>
+                                <znaczenie_nazwy>oszukańczy jaszczur</znaczenie_nazwy>
                                 <okres nazwa="jura" jednostka="mln lat temu">155 145</okres>
                                 <dlugosc jednostka='m'>20</dlugosc>
                                 <masa jednostka='t'>23</masa>
                         </rodzaj>
+                        <rodzaj nazwa_lacinska='Isanosaurus' nazwa_polska='Isanozaur'>
+                                <znaczenie_nazwy>isański jaszczur</znaczenie_nazwy>
+                                <okres nazwa="trias" jednostka="mln lat temu">214 201</okres>
+                                <dlugosc jednostka='m'>6.5</dlugosc>
+                                <masa jednostka='t'>4</masa>
+                        </rodzaj>
                 </podrzad>
                 <podrzad nazwa_polska='Teropody' nazwa_lacinska='Theropoda'>
                         <rodzaj nazwa_lacinska='Tyrannosaurus' nazwa_polska='Tyranozaur'>
+                                <znaczenie_nazwy>jaszczur tyran</znaczenie_nazwy>
                                 <okres nazwa="kreda" jednostka="mln lat temu">68 66</okres>
                                 <dlugosc jednostka='m'>12</dlugosc>
-                                <masa jednostka='t'>15</masa>
+                                <masa jednostka='t'>15</masa>                               
+                        </rodzaj>
+                        <rodzaj nazwa_polska='Herrerazaur' nazwa_lacinska='Herresaurus'>
+                                <znaczenie_nazwy>jaszczur Herrery</znaczenie_nazwy>
+                                <okres nazwa="trias" jednostka="mln lat temu">237 201</okres>
+                                <dlugosc jednostka='m'>12</dlugosc>
+                                <masa jednostka='t'>15</masa>                               
                         </rodzaj> 
                         <rodzaj nazwa_lacinska='Allosaurus' nazwa_polska='Alozaur'>
-                                <okres nazwa="jura">156 144</okres>
-                                <dlugosc jednostka='m'>9</dlugosc>
-                                <masa jednostka='t'>2</masa>
+                                <znaczenie_nazwy>dziwny jaszczur</znaczenie_nazwy>
+                                <okres nazwa="jura" jednostka="mln lat temu">156 144</okres>
+                                <dlugosc jednostka='m'>3 6</dlugosc>
+                                <masa jednostka='kg'>210 350</masa>
                         </rodzaj>
                         <rodzaj nazwa_lacinska='Velociraptor' nazwa_polska='Welociraptor'>
-                                <okres nazwa="kreda">74 40</okres>
-                                <dlugosc jednostka='cm'>2</dlugosc>
+                                <znaczenie_nazwy>szybki złojdziej</znaczenie_nazwy>
+                                <okres nazwa="kreda" jednostka="mln lat temu">74 70</okres>
+                                <dlugosc jednostka='cm' >2</dlugosc>
                                 <masa jednostka='kg'>7 11</masa>
                         </rodzaj>
                         <rodzaj nazwa_lacinska='Spinosaurus' nazwa_polska='Spinozaur'>
-                                <okres nazwa="kreda">95 70</okres>
+                                <znaczenie_nazwy>kolczasty jaszczur</znaczenie_nazwy>
+                                <okres nazwa="kreda" jednostka="mln lat temu">95 70</okres>
                                 <dlugosc jednostka='m'>15 18</dlugosc>
                                 <masa jednostka='t'>4 9</masa>
                         </rodzaj>
@@ -49,27 +68,58 @@
         <rzad  nazwa_polska='Dinozaury ptasiomiednicze' nazwa_lacinska='Ornithischia'>
                <podrzad nazwa_polska='Cerapody' nazwa_lacinska='Cerapoda'>
                        <rodzaj nazwa_lacinska='Triceratops'>
-                               <okres nazwa="kreda">68 66</okres>
+                               <znaczenie_nazwy>trójroga twarz</znaczenie_nazwy>
+                               <okres nazwa="kreda" jednostka="mln lat temu">68 66</okres>
                                <dlugosc jednostka='m'>9</dlugosc>
-                               <masa jednostka='t'>6</masa>
+                               <wysokosc jednostka='m'>3</wysokosc>
+                               <masa jednostka='t'>6.</masa>
                        </rodzaj>
                        <rodzaj nazwa_lacinska='Iguanodon'>
-                               <okres nazwa="kreda">144 110</okres>
+                               <znaczenie_nazwy>ząb iguany</znaczenie_nazwy>
+                               <okres nazwa="kreda" jednostka="mln lat temu">139 138</okres>
                                <dlugosc jednostka='m'>10 13</dlugosc>
                                <masa jednostka='t'>3 4</masa>
                        </rodzaj>
+                       <rodzaj nazwa_polska="Pachycefalozaur" nazwa_lacinska='Pachycephalosaurus' >
+                               <znaczenie_nazwy>grubogłowy jaszczur</znaczenie_nazwy>
+                               <okres nazwa="kreda" jednostka="mln lat temu">76 66</okres>
+                               <dlugosc jednostka='m'>4.5</dlugosc>
+                               <masa jednostka='kg'>450</masa>
+                       </rodzaj>
+                       <rodzaj nazwa_polska="Hadrozaur" nazwa_lacinska='Hadrosaurus' >
+                               <znaczenie_nazwy>ciężki jaszczur</znaczenie_nazwy>
+                               <okres nazwa="kreda" jednostka="mln lat temu">80 78</okres>
+                               <dlugosc jednostka='m'>8 10</dlugosc>
+                               <masa jednostka='t'>7 8</masa>
+                       </rodzaj>
+                       <rodzaj nazwa_polska="Parazaurolof" nazwa_lacinska='Parasaurolofus' >
+                               <znaczenie_nazwy>prawie jaszczurzy grzebień</znaczenie_nazwy>
+                               <okres nazwa="kreda" jednostka="mln lat temu">76 73</okres>
+                               <dlugosc jednostka='m'>9.5</dlugosc>
+                               <masa jednostka='t'>2.5</masa>
+                       </rodzaj>
+                       
                </podrzad>
                 <podrzad nazwa_polska='Tyreofory' nazwa_lacinska='Thyreophora'>
                         <rodzaj nazwa_lacinska='Ankylosaurus' nazwa_polska='Ankylozaur'>
-                                <okres nazwa="kreda">144 110</okres>
+                                <znaczenie_nazwy>wygięty jaszczur</znaczenie_nazwy>
+                                <okres nazwa="kreda" jednostka="mln lat temu">144 110</okres>
                                 <dlugosc jednostka='m'>9</dlugosc>
                                 <masa jednostka='t'>6</masa>
                         </rodzaj>
                         <rodzaj nazwa_lacinska='Stegosaurus' nazwa_polska='Stegozaur'>
-                                <okres nazwa="jura">155 145</okres>
+                                <znaczenie_nazwy>zadaszony jaszczur</znaczenie_nazwy>
+                                <okres nazwa="jura" jednostka="mln lat temu">155 145</okres>
                                 <dlugosc jednostka='m'>9</dlugosc>
                                 <wysokosc jednostka='m'>4</wysokosc>
                                 <masa jednostka='t'>2</masa>
+                        </rodzaj>
+                        <rodzaj nazwa_lacinska='Kentrosaurus' nazwa_polska='Kentrozaur'>
+                                <znaczenie_nazwy>kolczasty jaszczur</znaczenie_nazwy>
+                                <okres nazwa="jura" jednostka="mln lat temu">152</okres>
+                                <dlugosc jednostka='m'>4 5.5</dlugosc>
+                                <wysokosc jednostka='m'>4</wysokosc>
+                                <masa jednostka='t'>1 2</masa>
                         </rodzaj>
                 </podrzad>
         </rzad>  
